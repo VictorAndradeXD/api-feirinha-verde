@@ -1,24 +1,25 @@
-# README
+# Rails API Boilerplate (2025)
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## 🚀 Features
+- Autenticação JWT com Devise
+- Versionamento de API
+- Documentação Swagger (Rswag)
+- Paginação moderna com Pagy
+- Testes com RSpec e FactoryBot
+- Docker-ready
 
-Things you may want to cover:
+## 🛠️ Stack
+- Ruby 3.3
+- Rails 7.1
+- PostgreSQL
+- Docker
+- Swagger UI
+- RSpec
 
-* Ruby version
+## 📦 Setup local
 
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+```bash
+git clone https://github.com/seuusuario/minha_api.git
+cd minha_api
+cp .env.example .env
+docker-compose up --build
